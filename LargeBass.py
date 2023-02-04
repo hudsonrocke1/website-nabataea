@@ -46,7 +46,7 @@ parameters = {
 new_path = os.getcwd()
 
 
-stockfish = Stockfish(path= new_path + "\LargeBassStructure-Definitions", depth = depth_for_engine, parameters = parameters)
+stockfish = Stockfish(path= new_path + "\LargeBassAssets.exe", depth = depth_for_engine, parameters = parameters)
 white_or_black = True
 
 def get_move():
@@ -61,8 +61,6 @@ get_move()
 
 stockfish.set_depth(depth_for_engine)
 stockfish.set_elo_rating(elo)
-#move = stockfish.get_best_move()
-#print(move)
 
 print("\n", stockfish.get_board_visual())
 while 1:
