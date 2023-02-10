@@ -1,8 +1,5 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+center {
+	text-align: center;
 }
 
 a {
@@ -21,7 +18,7 @@ a:hover {
 
 pre code{
 	background-color: white;
-	border: 1px solid black;
+	border: 100px solid #04AA6D;
 	padding: 7px;
 	font-size: 20px;
 }
@@ -35,7 +32,7 @@ pre code{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14x 17px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -48,4 +45,8 @@ pre code{
 .topnav a.active {
 	background-color: #04AA6D;
 	color: white;
+}
+
+bold {
+	text-decoration: bold;
 }
